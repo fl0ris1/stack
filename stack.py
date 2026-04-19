@@ -33,4 +33,10 @@ class Stack:
         print(self.stack)
         
         
-stack=Stack(5)
+stack=Stack(16)
+stack.push(10)
+stack.isEmpty()
+stack.display()
+stack.size()
+stack.push(37)
+stack.top()
