@@ -17,10 +17,10 @@ class Stack():
             
     def display(self):
         print(self.stack)
-        
-stack=Stack(16)
 
 inp=input("Input A Word: ")
+
+stack=Stack(len(inp))
 
 for i in range(len(inp)-1,-1,-1):
     stack.push(inp[i])
